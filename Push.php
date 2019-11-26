@@ -63,7 +63,22 @@ class Push extends Component {
     public $template_obj; //Template类变量
     public $template_var; //Template类变量
     public $config = [];
-
+    private $_offline = true;
+    private $_network = 0; //0:联网方式不限;1:仅wifi;2:仅4G/3G/2G
+    public function getOffline(){
+        return $this->_offline;
+    }
+    public function setOffline($offline){
+        $this->_offline = $offline;
+        return $this;
+    }
+    public function getNetwork(){
+        return $this->_network;
+    }
+    public function setNetwork($value){
+        $this->_network = $value;
+        return $this;
+    }
     /**
      * 
      * @param type $config
@@ -128,10 +143,10 @@ class Push extends Component {
         $template = $this->template_var;
         //定义"SingleMessage"
         $message = new IGtSingleMessage();
-        $message->set_isOffline(true); //是否离线
+        $message->set_isOffline($this->_offline); //是否离线
         $message->set_offlineExpireTime(3600 * 12 * 1000); //离线时间
         $message->set_data($template); //设置推送消息类型
-        //$message->set_PushNetWorkType(0);//设置是否根据WIFI推送消息，2为4G/3G/2G，1为wifi推送，0为不限制推送
+        $message->set_PushNetWorkType($this->_network);//设置是否根据WIFI推送消息，2为4G/3G/2G，1为wifi推送，0为不限制推送
         //接收方
         $target = new IGtTarget();
         $target->set_appId($this->appId);
@@ -169,10 +184,10 @@ class Push extends Component {
         $template = $this->template_var;
         //定义"ListMessage"信息体
         $message = new IGtListMessage();
-        $message->set_isOffline(true); //是否离线
+        $message->set_isOffline($this->_offline); //是否离线
         $message->set_offlineExpireTime(3600 * 12 * 1000); //离线时间
         $message->set_data($template); //设置推送消息类型
-        $message->set_PushNetWorkType(1); //设置是否根据WIFI推送消息，1为wifi推送，0为不限制推送
+        $message->set_PushNetWorkType($this->_network); //设置是否根据WIFI推送消息，1为wifi推送，0为不限制推送
         $contentId = $igt->getContentId($message);
         $targetList = [];
         foreach ($cids as $cid) {
@@ -214,7 +229,7 @@ class Push extends Component {
         //个推信息体
         //基于应用消息体
         $message = new IGtAppMessage();
-        $message->set_isOffline(true);
+        $message->set_isOffline($this->_offline);
         $message->set_offlineExpireTime(10 * 60 * 1000); //离线时间单位为毫秒，例，两个小时离线为3600*1000*2
         $message->set_data($template);
 
@@ -279,10 +294,10 @@ class Push extends Component {
             $this->config($config);
             $templateNoti = $this->template_var;
             $messageNoti = new IGtSingleMessage();
-            $messageNoti->set_isOffline(true); //是否离线
+            $messageNoti->set_isOffline($this->_offline); //是否离线
             $messageNoti->set_offlineExpireTime(12 * 1000 * 3600); //离线时间
             $messageNoti->set_data($templateNoti); //设置推送消息类型
-            //$messageNoti->set_PushNetWorkType(1);//设置是否根据WIFI推送消息，1为wifi推送，0为不限制推送
+            $messageNoti->set_PushNetWorkType($this->_network);//设置是否根据WIFI推送消息，1为wifi推送，0为不限制推送
             $targetNoti = new IGtTarget();
             $targetNoti->set_appId($this->appId);
             $targetNoti->set_clientId($config['cid']);
