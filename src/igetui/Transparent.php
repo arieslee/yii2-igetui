@@ -7,23 +7,23 @@ class Transparent extends PBMessage
   public function __construct($reader=null)
   {
     parent::__construct($reader);
-    $this->fields["1"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["1"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["1"] = "";
-    $this->fields["2"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["2"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["2"] = "";
-    $this->fields["3"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["3"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["3"] = "";
-    $this->fields["4"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["4"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["4"] = "";
-    $this->fields["5"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["5"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["5"] = "";
-    $this->fields["6"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["6"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["6"] = "";
-    $this->fields["7"] = "\\sugao2013\\getui\\igetui\\PushInfo";
+    $this->fields["7"] = "\\sunmoon\\getui\\src\\igetui\\PushInfo";
     $this->values["7"] = "";
-    $this->fields["8"] = "\\sugao2013\\getui\\igetui\\ActionChain";
+    $this->fields["8"] = "\\sunmoon\\getui\\src\\igetui\\ActionChain";
     $this->values["8"] = array();
-    $this->fields["9"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["9"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["9"] = array();
   }
   function id()

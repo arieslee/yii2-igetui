@@ -7,11 +7,11 @@ class ReqServListResult extends PBMessage
   public function __construct($reader=null)
   {
     parent::__construct($reader);
-    $this->fields["1"] = "\\sugao2013\\getui\\protobuf\\type\\PBInt";
+    $this->fields["1"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBInt";
     $this->values["1"] = "";
-    $this->fields["2"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["2"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["2"] = array();
-    $this->fields["3"] = "\\sugao2013\\getui\\protobuf\\type\\PBString";
+    $this->fields["3"] = "\\sunmoon\\getui\\src\\protobuf\\type\\PBString";
     $this->values["3"] = "";
   }
   function code()
