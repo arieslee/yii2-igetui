@@ -11,7 +11,7 @@ php composer.phar require --prefer-dist sunmoon/getui "*"
 
     'components' => [
     'getui'=>[
-    'class'=>'sugao2013\getui\Push',
+    'class'=>'sunmoon\getui\src\Push',
     'appId' => 'Utt9VAqlZw9LrrDUfNGPc3', //你的APPID
     'appKey' => 'f1m9HzIL6D9gTXAkHsvuw2', //你的APPKEY  //   Lw2ycZlZtU9tLKzmafi1I6
     'masterSecret' => 'UZJ3xFDr4l7FtkMfeQKiP8', //你的masterSecret

@@ -1,5 +1,5 @@
 <?php
-namespace sugao2013\getui\protobuf\encoding;
+namespace sunmoon\getui\src\protobuf\encoding;
 /**
  * Base 128 varints - decodes and encodes base128 varints to/from decimal
  * @author Nikolai Kordulla

@@ -1,12 +1,12 @@
 <?php
 
-namespace sugao2013\getui;
+namespace sunmoon\getui\src;
 
-use sugao2013\getui\igetui\IGtSingleMessage;
-use sugao2013\getui\igetui\IGtTarget;
-use sugao2013\getui\igetui\IGtListMessage;
-use sugao2013\getui\igetui\IGtAppMessage;
-use sugao2013\getui\igetui\utils\AppConditions;
+use sunmoon\getui\src\igetui\IGtSingleMessage;
+use sunmoon\getui\src\igetui\IGtTarget;
+use sunmoon\getui\src\igetui\IGtListMessage;
+use sunmoon\getui\src\igetui\IGtAppMessage;
+use sunmoon\getui\src\igetui\utils\AppConditions;
 use yii\base\Component;
 
 /**
@@ -26,7 +26,7 @@ use yii\base\Component;
   配置：
   'components' => [
   'getui'=>[
-  'class'=>'sugao2013\getui\Push',
+  'class'=>'sunmoon\getui\src\Push',
   'appId' => 'Utt9VAqlZw9LrrDUfNGPc3', //你的APPID
   'appKey' => 'f1m9HzIL6D9gTXAkHsvuw2', //你的APPKEY  //   Lw2ycZlZtU9tLKzmafi1I6
   'masterSecret' => 'UZJ3xFDr4l7FtkMfeQKiP8', //你的masterSecret

@@ -1,17 +1,17 @@
 <?php
-namespace sugao2013\getui;
+namespace sunmoon\getui\src;
 /**
  * 2017年5月18日16:23:01
  * VERSION 3.3.2.1
  */
-use sugao2013\getui\igetui\utils\HttpManager;
+use sunmoon\getui\src\igetui\utils\HttpManager;
 use Exception;
-use sugao2013\getui\igetui\utils\GTConfig;
-use sugao2013\getui\igetui\utils\ApiUrlRespectUtils;
-use sugao2013\getui\igetui\utils\LangUtils;
-use sugao2013\getui\IGtBatch;
+use sunmoon\getui\src\igetui\utils\GTConfig;
+use sunmoon\getui\src\igetui\utils\ApiUrlRespectUtils;
+use sunmoon\getui\src\igetui\utils\LangUtils;
+use sunmoon\getui\src\IGtBatch;
 
-use sugao2013\getui\igetui\IGtListMessage;
+use sunmoon\getui\src\igetui\IGtListMessage;
 
 Class IGeTui
 {

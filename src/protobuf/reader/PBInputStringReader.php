@@ -1,5 +1,5 @@
 <?php
-namespace sugao2013\getui\reader;
+namespace sunmoon\getui\src\reader;
 /**
  * Reads string input
  */

@@ -1,6 +1,6 @@
 <?php
-namespace sugao2013\getui\igetui\utils;
-use sugao2013\getui\igetui\utils\HttpManager;
+namespace sunmoon\getui\src\igetui\utils;
+use sunmoon\getui\src\igetui\utils\HttpManager;
 use Exception;
 /**
  * Created by PhpStorm.

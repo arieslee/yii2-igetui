@@ -1,10 +1,10 @@
 <?php
-namespace sugao2013\getui\protobuf;
-use sugao2013\getui\protobuf\encoding\base128varint;
-use sugao2013\getui\reader\PBInputStringReader;
+namespace sunmoon\getui\src\protobuf;
+use sunmoon\getui\src\protobuf\encoding\base128varint;
+use sunmoon\getui\src\reader\PBInputStringReader;
 use Exception;
-use sugao2013\getui\protobuf\type\PBInt;
-use sugao2013\getui\protobuf\type\PBString;
+use sunmoon\getui\src\protobuf\type\PBInt;
+use sunmoon\getui\src\protobuf\type\PBString;
 abstract class PBMessage
 {
     const WIRED_VARINT = 0;

@@ -1,14 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eca0dbf-252b-4a73-90f8-695841e6d61d" name="Default Changelist" comment="" />
+    <list default="true" id="4eca0dbf-252b-4a73-90f8-695841e6d61d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IGeTui.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IGeTui.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IGtBatch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IGtBatch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Push.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Push.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/RequestException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/RequestException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ActionChain.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ActionChain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ActionChain_SMSStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ActionChain_SMSStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ActionChain_Type.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ActionChain_Type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ApnMsg.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ApnMsg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/AppStartUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/AppStartUp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/Button.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/Button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/CmdID.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/CmdID.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/DictionaryAlertMsg.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/DictionaryAlertMsg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/EndBatchTask.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/EndBatchTask.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/GtAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/GtAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/GtAuthResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/GtAuthResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/GtAuthResult_GtAuthResultCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/GtAuthResult_GtAuthResultCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/IGtAPNPayload.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/IGtAPNPayload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/IGtAppMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/IGtAppMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/IGtListMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/IGtListMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/IGtMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/IGtMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/IGtSingleMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/IGtSingleMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/IGtTarget.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/IGtTarget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/InnerFiled.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/InnerFiled.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/InnerFiled_Type.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/InnerFiled_Type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/MMPMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/MMPMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/OSMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/OSMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushInfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushListMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushListMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushListResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushListResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushMMPAppMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushMMPAppMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushMMPSingleMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushMMPSingleMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushOSSingleMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushOSSingleMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/PushResult_EPushResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/PushResult_EPushResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ReqServList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ReqServList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ReqServListResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ReqServListResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ReqServListResult_ReqServHostResultCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ReqServListResult_ReqServHostResultCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ServerNotify.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ServerNotify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ServerNotifyResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ServerNotifyResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/ServerNotify_NotifyType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/ServerNotify_NotifyType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/SimpleAlertMsg.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/SimpleAlertMsg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/SingleBatchItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/SingleBatchItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/SingleBatchRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/SingleBatchRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/StartMMPBatchTask.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/StartMMPBatchTask.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/StartOSBatchTask.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/StartOSBatchTask.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/Target.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/Target.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/Transparent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/Transparent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/template/IGtAPNTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/template/IGtAPNTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/template/IGtBaseTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/template/IGtBaseTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/template/IGtLinkTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/template/IGtLinkTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/template/IGtNotificationTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/template/IGtNotificationTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/template/IGtNotyPopLoadTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/template/IGtNotyPopLoadTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/template/IGtTransmissionTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/template/IGtTransmissionTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/ApiUrlRespectUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/ApiUrlRespectUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/ApnsUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/ApnsUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/AppConditions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/AppConditions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/GTConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/GTConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/HttpManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/HttpManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/LangUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/LangUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/LogUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/LogUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/OptType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/OptType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/Payload.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/Payload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/igetui/utils/Util.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/igetui/utils/Util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/PBMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/PBMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/encoding/base128varint.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/encoding/base128varint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/reader/PBInputReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/reader/PBInputReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/reader/PBInputStringReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/reader/PBInputStringReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/type/PBBool.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/type/PBBool.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/type/PBBytes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/type/PBBytes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/type/PBEnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/type/PBEnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/type/PBInt.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/type/PBInt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/type/PBScalar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/type/PBScalar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/type/PBSignedInt.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/type/PBSignedInt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/type/PBString.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/type/PBString.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -22,6 +100,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,6 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574736130124</updated>
       <workItem from="1574736131238" duration="873000" />
+      <workItem from="1574737176405" duration="229000" />
     </task>
     <servers />
   </component>
@@ -57,7 +141,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

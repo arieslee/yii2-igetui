@@ -1,7 +1,7 @@
 <?php
-namespace sugao2013\getui\igetui;
-use sugao2013\getui\protobuf\PBMessage;
-use sugao2013\getui\protobuf\type\PBBool;
+namespace sunmoon\getui\src\igetui;
+use sunmoon\getui\src\protobuf\PBMessage;
+use sunmoon\getui\src\protobuf\type\PBBool;
 class ActionChain extends PBMessage
 {
   var $wired_type = PBMessage::WIRED_LENGTH_DELIMITED;

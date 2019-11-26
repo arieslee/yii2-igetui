@@ -1,8 +1,8 @@
 <?php 
-namespace sugao2013\getui\igetui\template;
-use sugao2013\getui\igetui\ActionChain_Type;
-use sugao2013\getui\igetui\AppStartUp;
-use sugao2013\getui\igetui\ActionChain;
+namespace sunmoon\getui\src\igetui\template;
+use sunmoon\getui\src\igetui\ActionChain_Type;
+use sunmoon\getui\src\igetui\AppStartUp;
+use sunmoon\getui\src\igetui\ActionChain;
 class IGtTransmissionTemplate extends IGtBaseTemplate {
 
 	var $transmissionType;

@@ -1,10 +1,10 @@
 <?php
-namespace sugao2013\getui\igetui\template;
-use sugao2013\getui\igetui\Transparent;
+namespace sunmoon\getui\src\igetui\template;
+use sunmoon\getui\src\igetui\Transparent;
 use Exception;
-use sugao2013\getui\igetui\PushInfo;
-use sugao2013\getui\igetui\IGtAPNPayload;
-use sugao2013\getui\igetui\DictionaryAlertMsg;
+use sunmoon\getui\src\igetui\PushInfo;
+use sunmoon\getui\src\igetui\IGtAPNPayload;
+use sunmoon\getui\src\igetui\DictionaryAlertMsg;
 class IGtBaseTemplate
 {
     var $appId;

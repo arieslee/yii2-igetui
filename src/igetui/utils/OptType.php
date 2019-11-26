@@ -1,5 +1,5 @@
 <?php
-namespace sugao2013\getui\igetui\utils;
+namespace sunmoon\getui\src\igetui\utils;
 class OptType {
     const _OR_ = 0;
     const _AND_ = 1;

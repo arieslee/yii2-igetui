@@ -1,6 +1,6 @@
 <?php
-namespace sugao2013\getui\protobuf\type;
-use sugao2013\getui\protobuf\PBMessage;
+namespace sunmoon\getui\src\protobuf\type;
+use sunmoon\getui\src\protobuf\PBMessage;
 class PBEnum extends PBScalar
 {
 	var $wired_type = PBMessage::WIRED_VARINT;

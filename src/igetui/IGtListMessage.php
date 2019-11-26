@@ -1,6 +1,6 @@
 <?php 
-namespace sugao2013\getui\igetui;
-use sugao2013\getui\igetui\IGtMessage;
+namespace sunmoon\getui\src\igetui;
+use sunmoon\getui\src\igetui\IGtMessage;
 class IGtListMessage extends IGtMessage{
 	
 	public function __construct(){

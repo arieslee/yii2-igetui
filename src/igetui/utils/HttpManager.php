@@ -1,6 +1,6 @@
 <?php
-namespace sugao2013\getui\igetui\utils;
-use sugao2013\getui\exception\RequestException;
+namespace sunmoon\getui\src\igetui\utils;
+use sunmoon\getui\src\exception\RequestException;
 class HttpManager
 {
     static $curls = array();

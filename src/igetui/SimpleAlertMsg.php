@@ -1,5 +1,5 @@
 <?php
-namespace sugao2013\getui\igetui;
+namespace sunmoon\getui\src\igetui;
 class SimpleAlertMsg implements ApnMsg{
     var $alertMsg;
 

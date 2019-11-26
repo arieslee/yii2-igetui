@@ -1,5 +1,5 @@
 <?php
-namespace sugao2013\getui\igetui;
+namespace sunmoon\getui\src\igetui;
 class DictionaryAlertMsg implements ApnMsg{
 
     var $title;

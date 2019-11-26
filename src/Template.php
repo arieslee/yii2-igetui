@@ -11,13 +11,13 @@
   4.透传消息模版    =====>IGtTransmissionTemplateDemo()
  */
 
-namespace sugao2013\getui;
-use sugao2013\getui\igetui\template\IGtNotificationTemplate;
-use sugao2013\getui\igetui\template\IGtNotyPopLoadTemplate;
-use sugao2013\getui\igetui\template\IGtTransmissionTemplate;
-use sugao2013\getui\igetui\template\IGtLinkTemplate;
-use sugao2013\getui\igetui\IGtAPNPayload;
-use sugao2013\getui\igetui\DictionaryAlertMsg;
+namespace sunmoon\getui\src;
+use sunmoon\getui\src\igetui\template\IGtNotificationTemplate;
+use sunmoon\getui\src\igetui\template\IGtNotyPopLoadTemplate;
+use sunmoon\getui\src\igetui\template\IGtTransmissionTemplate;
+use sunmoon\getui\src\igetui\template\IGtLinkTemplate;
+use sunmoon\getui\src\igetui\IGtAPNPayload;
+use sunmoon\getui\src\igetui\DictionaryAlertMsg;
 
 class Template {
 
@@ -49,7 +49,7 @@ class Template {
      title 
      text
      logoURL
-     * @return \sugao2013\getui\IGtNotificationTemplate
+     * @return \sunmoon\getui\src\IGtNotificationTemplate
      */
     public function IGtNotificationTemplateDemo($config=[]) {  
         $template = new IGtNotificationTemplate();

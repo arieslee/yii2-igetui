@@ -1,6 +1,6 @@
 <?php
-namespace sugao2013\getui\igetui;
-use sugao2013\getui\protobuf\PBMessage;
+namespace sunmoon\getui\src\igetui;
+use sunmoon\getui\src\protobuf\PBMessage;
 class Target extends PBMessage
 {
   var $wired_type = PBMessage::WIRED_LENGTH_DELIMITED;

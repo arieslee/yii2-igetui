@@ -1,5 +1,5 @@
 <?php
-namespace sugao2013\getui\igetui\utils;
+namespace sunmoon\getui\src\igetui\utils;
 
  class AppConditions {
  	//手机类型

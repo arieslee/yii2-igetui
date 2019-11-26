@@ -1,6 +1,6 @@
 <?php
-namespace sugao2013\getui\protobuf\reader;
-use sugao2013\getui\protobuf\encoding\base128varint;
+namespace sunmoon\getui\src\protobuf\reader;
+use sunmoon\getui\src\protobuf\encoding\base128varint;
 abstract class PBInputReader
 {
 	protected $base128;

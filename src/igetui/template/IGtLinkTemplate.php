@@ -1,9 +1,9 @@
 <?php 
-namespace sugao2013\getui\igetui\template;
-use sugao2013\getui\igetui\ActionChain;
-use sugao2013\getui\igetui\InnerFiled;
-use sugao2013\getui\igetui\ActionChain_Type;
-use sugao2013\getui\igetui\InnerFiled_Type;
+namespace sunmoon\getui\src\igetui\template;
+use sunmoon\getui\src\igetui\ActionChain;
+use sunmoon\getui\src\igetui\InnerFiled;
+use sunmoon\getui\src\igetui\ActionChain_Type;
+use sunmoon\getui\src\igetui\InnerFiled_Type;
 class IGtLinkTemplate extends IGtBaseTemplate {
 
 	/**

@@ -1,6 +1,6 @@
 <?php
-namespace sugao2013\getui\protobuf\type;
-use sugao2013\getui\protobuf\PBMessage;
+namespace sunmoon\getui\src\protobuf\type;
+use sunmoon\getui\src\protobuf\PBMessage;
 /**
  * @author Nikolai Kordulla
  */

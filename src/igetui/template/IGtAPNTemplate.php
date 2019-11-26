@@ -1,5 +1,5 @@
 <?php
-namespace sugao2013\getui\igetui\template;
+namespace sunmoon\getui\src\igetui\template;
 /**
  * Created by PhpStorm.
  * User: Kevin

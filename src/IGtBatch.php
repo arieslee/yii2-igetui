@@ -1,9 +1,9 @@
 <?php
-namespace sugao2013\getui;
+namespace sunmoon\getui\src;
 use Exception;
-use sugao2013\getui\igetui\SingleBatchItem;
-use sugao2013\getui\igetui\SingleBatchRequest;
-use sugao2013\getui\igetui\utils\GTConfig;
+use sunmoon\getui\src\igetui\SingleBatchItem;
+use sunmoon\getui\src\igetui\SingleBatchRequest;
+use sunmoon\getui\src\igetui\utils\GTConfig;
 class IGtBatch
 {
     var $batchId;

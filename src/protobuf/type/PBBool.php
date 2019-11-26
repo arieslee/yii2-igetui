@@ -1,7 +1,7 @@
 <?php
-namespace sugao2013\getui\protobuf\type;
-//use sugao2013\getui\protobuf\type\PBInt;
-use sugao2013\getui\protobuf\PBMessage;
+namespace sunmoon\getui\src\protobuf\type;
+//use sunmoon\getui\src\protobuf\type\PBInt;
+use sunmoon\getui\src\protobuf\PBMessage;
 class PBBool extends PBInt
 {
 	var $wired_type = PBMessage::WIRED_VARINT;

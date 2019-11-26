@@ -1,6 +1,6 @@
 <?php
-namespace sugao2013\getui\igetui;
-use sugao2013\getui\protobuf\type\PBEnum;
+namespace sunmoon\getui\src\igetui;
+use sunmoon\getui\src\protobuf\type\PBEnum;
 class ActionChain_Type extends PBEnum
 {
   const refer  = 0;
