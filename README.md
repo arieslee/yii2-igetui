@@ -2,6 +2,11 @@ yii2-igetui
 ===
 yii2个推
 ---
+**安装：**
+
+```
+php composer.phar require --prefer-dist sunmoon/getui "*"
+```
 **配置：**
 
     'components' => [
