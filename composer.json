@@ -6,16 +6,19 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "sugao2013",
-            "email": "2297999137@qq.com"
+            "name": "Sunmoon",
+            "email": "forphp@qq.com",
+            "homepage": "https://blog.iw3c.com",
+            "role": "Developer"
         }
     ],
     "require": {
+        "yiisoft/yii2": "^2.0.15"
     },
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "sunmoon\\getui\\": ""
+            "sunmoon\\getui\\": "src"
         }
     }
 }
